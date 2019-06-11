@@ -44,7 +44,7 @@ public class TC4Test {
         //status code validation
         int statusCode=response.getStatusCode();
         System.out.println("Status code is: "+statusCode);
-        Assert.assertEquals(statusCode, 201);
+        Assert.assertEquals(statusCode, 200);
 
         //success code validation
         String successCode=response.jsonPath().get("SuccessCode");

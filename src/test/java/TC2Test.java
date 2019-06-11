@@ -7,7 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 //Get request
-public class TC2 {
+public class TC2Test {
 
 
     @Test

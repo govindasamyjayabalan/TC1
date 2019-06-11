@@ -5,7 +5,7 @@ import io.restassured.specification.RequestSpecification;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TC1 {
+public class TC1Test {
 //Get Request
     @Test
     void Weatherdetails()

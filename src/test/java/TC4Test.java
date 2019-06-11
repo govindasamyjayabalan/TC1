@@ -47,8 +47,8 @@ public class TC4Test {
         Assert.assertEquals(statusCode, 200);
 
         //success code validation
-        String successCode=response.jsonPath().get("SuccessCode");
-        Assert.assertEquals(successCode, "OPERATION_SUCCESS");
+       // String successCode=response.jsonPath().get("SuccessCode");
+       // Assert.assertEquals(successCode, "OPERATION_SUCCESS");
 
     }
 

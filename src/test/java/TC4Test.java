@@ -6,7 +6,7 @@ import org.json.simple.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TC4 {
+public class TC4Test {
 
     @Test
     void Registation()
